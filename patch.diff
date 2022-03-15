@@ -1,0 +1,62 @@
+From 8baf143cd82a89df5f9dc4abee658d2862db86f1 Mon Sep 17 00:00:00 2001
+From: BhavinGitt <bhavinkumarram@gmail.com>
+Date: Mon, 14 Mar 2022 23:28:12 -0400
+Subject: [PATCH] OK
+
+---
+ change1.html   | 15 ---------------
+ index.html     |  1 +
+ index.html.bak |  2 +-
+ 3 files changed, 2 insertions(+), 16 deletions(-)
+ delete mode 100644 change1.html
+
+diff --git a/change1.html b/change1.html
+deleted file mode 100644
+index f0c969a..0000000
+--- a/change1.html
++++ /dev/null
+@@ -1,15 +0,0 @@
+-<html>
+-<head>
+-		<title>welcome</title>
+-</head>
+-<body> 
+-		<center>   
+-		
+-		<h1> Welcome to Bhavin's website </h1>
+-		<h1> Welcome back to Bhavin's website </h1>
+-		
+-		</center>
+-</body>
+-
+-
+-</html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index a64c4a8..bcf5de9 100644
+--- a/index.html
++++ b/index.html
+@@ -5,6 +5,7 @@
+ <body> 
+ 		<center>   
+ 		
++		<h1> Welcome to Bhavin's website CHANGE MADE IN LOCAL FILE BY SOURCE TREE </h1>
+ 		<h1> Welcome to Bhavin's website CHANGE MADE IN LOCAL FILE BY SOURCE TREE </h1>
+ 		<h1> Welcome to Bhavin's website UPDATE MADE IN LOCAL DEV BRANCH</h1>
+ 		<h1> Welcome to Bhavin's website hello!!!</h1>
+diff --git a/index.html.bak b/index.html.bak
+index 42e48b5..a64c4a8 100644
+--- a/index.html.bak
++++ b/index.html.bak
+@@ -5,7 +5,7 @@
+ <body> 
+ 		<center>   
+ 		
+-		<h1> Welcome to Bhavin's website </h1>
++		<h1> Welcome to Bhavin's website CHANGE MADE IN LOCAL FILE BY SOURCE TREE </h1>
+ 		<h1> Welcome to Bhavin's website UPDATE MADE IN LOCAL DEV BRANCH</h1>
+ 		<h1> Welcome to Bhavin's website hello!!!</h1>
+ 		<button> PRESS ME </button>
+-- 
+2.34.1.windows.1
+
